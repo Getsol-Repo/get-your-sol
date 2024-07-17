@@ -1,0 +1,6 @@
+// 心跳间隔
+export const WS_HEARTBEAT_INTERVAL = 15000
+
+export const MILLISECONDS_PER_YEAR = 365 * 24 * 60 * 60 * 1000
+
+export const BLOCK_INTERVAL_ETHEREUM = 12 * 1000

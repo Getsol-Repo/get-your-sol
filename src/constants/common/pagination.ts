@@ -1,0 +1,12 @@
+export const PAGINATION_CONFIGS = {
+  /**
+   * 最大自动请求次数
+   */
+  MAX_AUTO_REQUEST_COUNT: 2,
+  PAGE_DEFAULT: 1,
+  PAGE_KEY: 'p',
+  PAGE_SIZE_DEFAULT: 10,
+  PAGE_SIZE_KEY: 'ps',
+  PAGE_SIZE_OPTIONS: [10, 20, 50, 100],
+  PAGE_SIZE_OPTIONS_DEV: [1, 10, 20, 50, 100, 300, 1000],
+} as const
